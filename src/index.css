@@ -1,0 +1,77 @@
+body{
+    background-color:bisque;
+}
+#root{
+
+    height: 100vh;
+    width: 100vw;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   gap: 1vh;
+}
+#input{
+    border-radius: 5%;
+    color:cornsilk;
+    background-color: slateblue;
+    width: 40vw;
+    height: 100vh;
+    padding: 3vh;
+    box-shadow: 0vh 1vh 3vh 2vh  black;    
+
+}
+
+#output{
+ 
+
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+   
+    text-align: center;
+}
+.title{
+    font-size: 3vh;
+    color: wheat;
+}
+#generalin{
+    display: flex;
+    flex-direction: column;
+}
+#edin{
+    display: flex;
+    flex-direction: column;
+}
+#expin{
+    display: flex;
+    flex-direction: column;
+}
+.outtitle{
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 4vh;
+}
+#generalout{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#name{
+    margin: 2vh;
+    font-size: 5vh;
+    background-color: azure;
+    padding: 1vh;
+    border-radius:40%;
+    border: .2vh solid black;
+    box-shadow: 1vh 1vh 1vh black;
+}
+#birth{
+    margin: 0;
+}
+#nationality{
+    margin: 0;
+}
